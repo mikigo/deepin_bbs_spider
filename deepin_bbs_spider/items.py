@@ -11,3 +11,4 @@ class DeepinBbsSpiderItem(scrapy.Item):
     # name = scrapy.Field()
     url = scrapy.Field()
     title = scrapy.Field()
+    # time = scrapy.Field()

@@ -10,4 +10,7 @@ from itemadapter import ItemAdapter
 
 class DeepinBbsSpiderPipeline:
     def process_item(self, item, spider):
+        print("获取每一条数据：")
+        print(item)
+        print(spider)
         return item
